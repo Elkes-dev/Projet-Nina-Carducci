@@ -58,6 +58,12 @@ body {
 .carousel-indicators{
 	background-color: #4F4F4F;
 }
+.carousel-control-next, .carousel-control-prev{
+	background-color: red;
+}
+.visually-hidden{
+	color: #000;
+}
 .picture.left::before {
 	content: ' ';
 	background-color: #E5975F;
