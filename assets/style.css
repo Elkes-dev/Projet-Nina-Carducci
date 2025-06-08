@@ -49,7 +49,15 @@ body {
 	padding-block: 100px;
 	position: relative;
 }
-
+.carousel-control-prev-icon, .carousel-control-next-icon{
+	background-color: purple;
+}
+.d-block .w-100{
+	color: red;
+}
+.carousel-indicators{
+	background-color: #4F4F4F;
+}
 .picture.left::before {
 	content: ' ';
 	background-color: #E5975F;
